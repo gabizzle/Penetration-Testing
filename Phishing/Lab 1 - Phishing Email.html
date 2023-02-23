@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--LAB 3.1 Google (Email)-->
+
+<style>
+    body {
+        font-family: 'Arial';
+        text-align: center;
+    }
+    div, th, td {
+        border-collapse: collapse;
+        border-style: solid;
+        border-radius: 10px;
+        text-align: center;
+        margin: 25px;
+        padding: 30px 25px 30px 25px;
+    }
+</style>
+
+<body>
+
+     <title>Google</title>
+
+    <div class="w3-panel w3-border;">
+        <tr>
+            <td>
+                <!--Google Logo-->
+                <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" width="115px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!--Email Title-->
+                <p style="font-size: 28px;">Account breach</p>
+                <hr style="height: 1px; border-width:0; color:black; background-color:black">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!--Intructions-->
+                <p style="font-size: 18px; text-align: left;"><b>Your account was part of an online hack</b></p>
+                <p style="font-size: 16px; text-align: left;">Please follow the instructions to access your account by <a href="{{.URL}}" style="color:black; text-decoration: none;"></a>
+                    <a style="color:DodgerBlue; text-decoration: none;" href="{{.URL}}"> clicking this link.</a></p>
+            </td>
+        </tr>
+    </div>
+    <p style="text-align: center; color: gray; font-size: 14px; margin: 0 25px 25px 25px;">You received this email to let you know about important changes to your Google Account and services. <br/> © 2023 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043. USA</p>
+</body>
