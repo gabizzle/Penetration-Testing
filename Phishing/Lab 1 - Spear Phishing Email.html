@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--LAB 1.1 Amazon Spear Phishing (Email)-->
+
+<style>
+    body {
+        font-family: 'Helvetica Neue';
+        margin: 25px;
+    }
+        
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 25px;
+        inline-size: 100%;
+    }
+
+</style>
+
+<body>
+
+    <title>Amazon</title>
+ 
+    <!--Amazon Logo-->
+    <img src="https://cdn.freebiesupply.com/images/large/2x/amazon-logotransparent.png" width="115px" style="margin-bottom: 10px">
+    <hr color="efefef">
+
+    <!--Email Content-->
+    <p>Dear {{.User}},</p>
+    <p>Your package has been delayed.</p>
+    <p>Details are as followed:</p>
+    <b>Type</b>: Parcel<br />
+    <b>Tracking Number</b>: 231300687629630<br />
+    <b>Origin</b>: New York, United States<br />
+    <b>Sent</b>: Feb 3, 2023 04:28 AM Eastern Standard Time<br /></br />
+                    
+    <!--Instructions with Link-->
+    <table>
+        <tr>
+            <td>
+                <p>To immediately resolve this issue, <a style="color:DodgerBlue; text-decoration: none;" href="{{.URL}}">click here </a>and follow the instructions.</p>
+            </td>
+        </tr>
+    </table>
+</body>
