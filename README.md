@@ -10,4 +10,4 @@
 #### 6 – Cloud Security
 #### 7 – Network Binary Exploitation
 
-**Not yet complete**
+*Not yet complete*
