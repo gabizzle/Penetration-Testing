@@ -1,7 +1,5 @@
-# Lab 1
-#### Deadline: February 6, 2023
+# Penetration Testing Activities
 
-**Requirements**
-- [x] OSINT
-- [x] Phishing
-- [x] Recon Automation
+## Table of Contents
+
+### 1
