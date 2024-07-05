@@ -47,7 +47,8 @@ This tool was used to query database information regarding the company.
 - NSLookUp
 
 This tool was used to query DNS information regarding the company:
-            
+
+```ruby
       Server: 2603:7000:2df0:7ce0::1
       Address: 2603:7000:2df0:7ce0::1#53
       
@@ -60,11 +61,13 @@ This tool was used to query DNS information regarding the company:
       Name: salesforce.com   Address: 184.31.10.133
       Name: salesforce.com   Address: 23.1.35.132
       Name: salesforce.com   Address: 104.109.11.129
+```
 
 ### DiG
 
 This tool was used to acquire DNS information. It revealed that these are the IP addresses associated to salesforce.com:
 
+```ruby
     salesforce.com. 1 IN A 104.109.11.129 
     salesforce.com. 1 IN A 184.25.179.132 
     salesforce.com. 1 IN A 23.1.35.132 
@@ -73,9 +76,11 @@ This tool was used to acquire DNS information. It revealed that these are the IP
     salesforce.com. 1 IN A 184.31.10.133 
     salesforce.com. 1 IN A 184.31.3.130 
     salesforce.com. 1 IN A 23.1.99.130
+```
     
 ### Technical Information of Salesforce:
 
+```ruby
     NAME             Salesforce.com
     REGISTRAR        MarkMonitor, Inc.
     REGISTRAR URL    http://www.markmonitor.com
@@ -89,6 +94,7 @@ This tool was used to acquire DNS information. It revealed that these are the IP
     FAX                     +1.4159017040
     EMAIL                   registrar-updates@salesforce.com
     NAME SERVERS            udns3.salesforce.com udns1.salesforce.com pch2.salesforce-dns.com. udns4.salesforce.com udns2.salesforce.com pch1.salesforce-dns.com.
+```
                                              
 ### Analysis
 
@@ -128,5 +134,4 @@ Continuously test applications, services and networks using tools that hackers a
 - https://www.insidertrades.com/salesforcecom-inc-stock/parker-harris/
 - https://www.bloomberg.com/profile/person/6536832
 - https://www.businessinsider.com/parker-harris-salesforce-cofounder-profile-2015-2
-- https://www.forbes.com/sites/ciocentral/2011/08/29/executive-profiles-disruptive-tech-leaders-in-social-business-parker-harris-salesforce-com/?sh=3de8b0a1113c
-            
+- https://www.forbes.com/sites/ciocentral/2011/08/29/executive-profiles-disruptive-tech-leaders-in-social-business-parker-harris-salesforce-com/ sh=3de8b0a1113c
