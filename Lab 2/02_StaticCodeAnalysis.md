@@ -1,7 +1,7 @@
 # 📝 Static Code Analysis
 
-[Lets Be Bad Guys Results](https://github.com/gabizzle/Lab-2/blob/a337124fb944f47ebaa7bda53e837769926d6d59/Static%20Code%20Analysis/SCA%20Results%20-%20Bad%20Guys.md) <br>
-[Vulpy Results](https://github.com/gabizzle/Lab-2/blob/a337124fb944f47ebaa7bda53e837769926d6d59/Static%20Code%20Analysis/SCA%20Results%20-%20Vulpy.md)
+[Lets Be Bad Guys Results](https://github.com/gabizzle/Penetration-Testing/blob/main/Lab%202/02_LetsBeBadGuys.md) <br>
+[Vulpy Results](https://github.com/gabizzle/Penetration-Testing/blob/main/Lab%202/02_Vulpy.md)
 
 ## Summary
 
