@@ -2,21 +2,29 @@
 
 ## Level 1
 
+```ruby
     `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"`
+```
 
 <img width="600" alt="image" src="https://github.com/gabizzle/Penetration-Testing/assets/67624149/86267756-f5b4-4057-9c2c-4f1d59c7ae33">
-   
+
+```ruby
     `unzip awscliv2.zip`
+```
 
 <img width="600" alt="image" src="https://github.com/gabizzle/Penetration-Testing/assets/67624149/765915d2-0bee-47bc-aae6-05dff063816d">
 
+```ruby
     `sudo ./aws/install`
+```
 
 After installing the AWS CLI, we can check if it was installed correctly by running the `aws --version` command.
 
 We can access the S3 bucket containing the content for the flaws.cloud website using the AWS CLI by running the following command:
-    
+
+```ruby
     `aws s3 ls s3://flaws.cloud/ --no-sign-request --region us-west-2`
+```
 
 We can see that a file named `secret-dd02c7c.html` is located in the bucket and looks interesting.
 
